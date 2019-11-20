@@ -9,12 +9,12 @@ package myloop.panels;
  *
  * @author scalo
  */
-public class schedPanel extends javax.swing.JPanel {
+public class SettPanel extends javax.swing.JPanel {
 
     /**
-     * Creates new form schedPanel
+     * Creates new form settPanel
      */
-    public schedPanel() {
+    public SettPanel() {
         initComponents();
     }
 
@@ -33,7 +33,7 @@ public class schedPanel extends javax.swing.JPanel {
         setMinimumSize(new java.awt.Dimension(1080, 720));
 
         jLabel1.setFont(new java.awt.Font("Gill Sans MT", 0, 24)); // NOI18N
-        jLabel1.setText("Controlla lo stato della tua sessione!");
+        jLabel1.setText("Impostazioni");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -42,7 +42,7 @@ public class schedPanel extends javax.swing.JPanel {
             .addGroup(layout.createSequentialGroup()
                 .addGap(161, 161, 161)
                 .addComponent(jLabel1)
-                .addContainerGap(561, Short.MAX_VALUE))
+                .addContainerGap(795, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

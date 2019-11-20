@@ -9,12 +9,12 @@ package myloop.panels;
  *
  * @author scalo
  */
-public class infoPanel extends javax.swing.JPanel {
+public class InfoPanel extends javax.swing.JPanel {
 
     /**
      * Creates new form infoPanel
      */
-    public infoPanel() {
+    public InfoPanel() {
         initComponents();
     }
 

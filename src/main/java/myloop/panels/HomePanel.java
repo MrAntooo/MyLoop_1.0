@@ -5,18 +5,18 @@
  */
 package myloop.panels;
 
-import myloop.frame.add;
+import myloop.frame.Add;
 
 /**
  *
  * @author scalo
  */
-public class homePanel extends javax.swing.JPanel {
+public class HomePanel extends javax.swing.JPanel {
 
     /**
      * Creates new form homePanel
      */
-    public homePanel() {
+    public HomePanel() {
         initComponents();
     }
 
@@ -76,8 +76,8 @@ public class homePanel extends javax.swing.JPanel {
     }// </editor-fold>//GEN-END:initComponents
 
     private void addBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addBtnActionPerformed
-        // TODO add your handling code here:
-       add Session = new add();
+        // TODO Add your handling code here:
+       Add Session = new Add();
        Session.setVisible(true);
     }//GEN-LAST:event_addBtnActionPerformed
 
